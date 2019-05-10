@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul {
+	width: 100%;
+  position: fixed;
+  bottom: 410px;
+  width: 1285px;
+  list-style-type: none;
+  margin-right: 100px;
+  overflow: hidden;
+  background-color: rebeccapurple;
+  z-index: 4;
+}
+
+li {
+	float: left;
+	margin-left: 130px;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px 5px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  color: goldenrod;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+header
+{
+	position: fixed;
+	background-color: white;
+	margin-top: 5px;
+	top: -60px;
+	left: -20px;
+	height: 247px;
+	width: 1400px;
+	overflow: hidden;
+	z-index: 4;
+
+}
+.logo
+{
+	margin-left: 500px;
+}
+body
+{
+ width: 900px;
+	height: 3400px;
+	background-image: linear-gradient(0deg, rebeccapurple, orange);
+}
+.container {
+  position: relative;
+  width: 400px;
+	bottom: -200px;
+}
+.container2 {
+  position: relative;
+  left: 460px;
+  bottom: 242px;
+  width: 400px;
+}
+.container3 {
+  position: relative;
+  left: 925px;
+  bottom: 687px;
+  width: 400px;
+}
+.container4 {
+  position: relative;
+  width: 400px;
+  bottom: 510px;
+}
+.container5 {
+  position: relative;
+  width: 400px;
+	bottom: 952px;
+  left: 460px;
+}
+.container6 {
+  position: relative;
+  width: 400px;
+	bottom:1395px;
+  left: 925px;
+}
+.container7 {
+  position: relative;
+  width: 400px;
+  bottom: 1205px;
+}
+.container8 {
+  position: relative;
+  width: 400px;
+  bottom: 1690px;
+  left: 460px;
+}
+.container9 {
+  position: relative;
+  width: 400px;
+  bottom: 2050px;
+  left: 922px;
+}
+.container10 {
+  position: relative;
+  width: 400px;
+  bottom: 1770px;
+}
+.container11 {
+  position: relative;
+  width: 400px;
+  bottom: 2212px;
+  left: 460px;
+}
+.container12 {
+  position: relative;
+  width: 400px;
+  bottom: 2635px;
+  left: 922px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: orange;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+.container2:hover .overlay {
+  opacity: 1;
+}
+.container3:hover .overlay {
+  opacity: 1;
+}
+.container4:hover .overlay {
+  opacity: 1;
+}
+.container5:hover .overlay {
+  opacity: 1;
+}
+.container6:hover .overlay {
+  opacity: 1;
+}
+.container7:hover .overlay {
+  opacity: 1;
+}
+.container8:hover .overlay {
+  opacity: 1;
+}
+.container9:hover .overlay {
+  opacity: 1;
+}
+.container10:hover .overlay {
+  opacity: 1;
+}
+.container11:hover .overlay {
+  opacity: 1;
+}
+.container12:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+		
+}
+h1
+{
+	font-family: "Century Gothic";
+	font-size: 24px;
+	background-color: cyan;
+	color: white;
+}
+p
+{
+	background-color: rebeccapurple;
+	color: white;
+	font-family: "Century Gothic";
+	font-size: 16px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: justify;
+}
+footer
+{
+	width: 1500px;
+	height: 100px;
+	position: absolute;
+	bottom: -2880px;
+	right: -100px;
+	background-color: rebeccapurple;	
+}
+ol
+{
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+    text-decoration: none;
+	 margin-left: 300px;
+    overflow: hidden;
+}
